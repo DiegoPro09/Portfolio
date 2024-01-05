@@ -44,15 +44,15 @@ export const AboutMe:React.FC = () =>{
                         <Card.Text style={{ marginTop:'20px', marginRight: '20px' }}>
                             <Card.Title>Sobre Mí</Card.Title>
                             <br/>
-                            <p>Soy un apasionado por lo que hago, buscando continuamente el crecimiento intelectual en el ámbito de la programacion.
-                            Desde que me recibí siempre priorice el estar al pendiente de las tecnologias que iban surgiendo, así como estar informado de 
+                            <p>Soy un apasionado por lo que hago, buscando continuamente el crecimiento intelectual en el ámbito de la programación.
+                            Desde que me recibí siempre priorice el estar al pendiente de las tecnologías que iban surgiendo, así como estar informado de 
                             actualizaciones en cada lenguaje que manejo.</p>
                             <p>Personalmente me considero una persona meticulosa, y comprometida con cada proyecto que se ponga por delante, 
-                            siempre intento buscar una optimizacion en el codigo, y revisar constantemente que porcion del mismo es redundante o reutilizable 
-                            para asi transformarlo en un componente unico.
-                            Si bien poseo habilidades en creacion de APIs RESTful, Interfaces de usuario, y Administracion de Base de Datos, tiendo a inclinarme mas por el Desarrollo Front End,
+                            siempre intento buscar una optimización en el código, y revisar constantemente que porción del mismo es redundante o reutilizable 
+                            para asi transformarlo en un componente único.
+                            Si bien poseo habilidades en creación de APIs RESTful, Interfaces de usuario, y Administración de Base de Datos, tiendo a inclinarme mas por el Desarrollo Front End,
                             aunque considero que puedo desenvolverme muy bien en estos tres ámbitos.</p>
-                            <p>No todo es color de rosas, poseo defectos como cualquier otro, aunque no me considero muy bueno identificandolos, considero que mi mayor defecto es que cuando algo no me 
+                            <p>No todo es color de rosas, poseo defectos como cualquier otro, aunque no me considero muy bueno identificándolos, considero que mi mayor defecto es que cuando algo no me 
                             sale bien al 3er intento me enojo demasiado, no me impide realizar la tarea, de hecho me motiva mas a solucionar el error que tuviere, pero me deja con un sabor amargo lo 
                             que queda del dia.</p>
                         </Card.Text>
@@ -83,7 +83,7 @@ export const AboutMe:React.FC = () =>{
                     </Row><br/>
                     <Row>
                         <Col span={12}>
-                            <Title level={3} style={{ color:'white'}}>Librerias Front End</Title>
+                            <Title level={3} style={{ color:'white'}}>Librerías Front End</Title>
                             <Image src={antd} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
                             <Image src={bootstrap} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
                             <Image src={materialui} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
@@ -91,7 +91,7 @@ export const AboutMe:React.FC = () =>{
                             <Image src={styledComponents} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
                         </Col>
                         <Col span={12}>
-                            <Title level={3} style={{ color:'white'}}>Librerias Back End</Title>
+                            <Title level={3} style={{ color:'white'}}>Librerías Back End</Title>
                             <Image src={jwt} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
                             <Image src={oauth} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
                             <Image src={axios} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>

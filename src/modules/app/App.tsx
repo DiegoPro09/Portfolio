@@ -33,16 +33,16 @@ function App() {
         <LiderOilJob />
         
         <div className="tecnologiasusadas">
-          <Title level={1} className="title">En todos los proyectos que he participado se utilizaron las siguientes tecnologias:</Title> 
+          <Title level={1} className="title">En todos los proyectos que he participado se utilizaron las siguientes tecnologías:</Title> 
           <Flex gap={25} justify="center">
             <Card cover={<Image src={jwt} style={{ width: '200px', height: '200px'}}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Json Web Token" description="Para manejar la sesion del usuario mediante tokens" />
+              <Meta title="Json Web Token" description="Para manejar la sesión del usuario mediante tokens" />
             </Card>
             <Card cover={<Image src={oauth} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
               <Meta title="OAuth" description="Para delegar autorizaciones de los usuarios y manejo de tokens del usuarios" />
             </Card>
             <Card cover={<Image src={github} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Git Hub" description="Para el manejo y control de versiones de cada aplicacion" />
+              <Meta title="Git Hub" description="Para el manejo y control de versiones de cada aplicación" />
             </Card>
             <Card cover={<Image src={postman} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
               <Meta title="Postman" description="Para realizar pedidos http de pruebas a los endpoints" />
@@ -56,7 +56,7 @@ function App() {
               <Meta title="MySQL Workbench" description="Motor de base de datos para realizar consultas a las tablas de la misma o crear nuevos campos o tablas" />
             </Card>
             <Card cover={<Image src={figma} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Figma" description="Donde se realizan los prototipados de los sistemas para luego presentarlos" />
+              <Meta title="Figma" description="Donde se realizan los prototipos de los sistemas para luego presentarlos" />
             </Card>
             <Card cover={<Image src={drawio} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
               <Meta title="Draw.io" description="Para realizar esquemas DER para las base de datos" />

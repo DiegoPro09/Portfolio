@@ -18,19 +18,19 @@ export const AngloJob:React.FC = () =>{
         <Flex gap={10} style={{color:'white'}}>
             <div className="jobdescription">
                 <div className="descriptionAnglo">
-                    <p>Paralelamente mientras me encontraba trabajando en el sistema del colegio tambien se me encargo darle mantenimiento a un sistema de un club de futbol,
-                    este mismo semanalmente se juegan partidos por torneos dependiendo de la categoria en la que el club se encuentre, pemitiendo asi que los usuarios unicamente
-                    pertenezcan a un club y una categoria. Como todo torneo de futbol, hay arbitros y sanciones que debian ser manejadas, y cuotas para los afiliados.</p>
-                    <p>Llegada a una cierta cantidad de tarjetas amarillas el mismo debia pagar una multa y quedaba sancionado por conducta a X cantidad de fechas a disputar. 
-                    Tambien se debian manejar las facturas y pagos de socios, si un socio se atrasaba en un pago debia aparecer una advertencia una vez que ingresaba con su carnet (tambien diseñado
-                    por nosotros) y a este no permitiendole disputar un partido.</p>
-                    <p>Cada jugador podia retirarse de su equipo y cambiarse a otro y no necesariamente tenia que ser de la misma categoria, podia tambien cambiarse de equipo y categoria.
+                    <p>Paralelamente mientras me encontraba trabajando en el sistema del colegio también se me encargo darle mantenimiento a un sistema de un club de futbol,
+                    este mismo semanalmente se juegan partidos por torneos dependiendo de la categoría en la que el club se encuentre, permitiendo así que los usuarios únicamente
+                    pertenezcan a un club y una categoría. Como todo torneo de futbol, hay árbitros y sanciones que debían ser manejadas, y cuotas para los afiliados.</p>
+                    <p>Llegada a una cierta cantidad de tarjetas amarillas el mismo debía pagar una multa y quedaba sancionado por conducta a X cantidad de fechas a disputar. 
+                    También se debían manejar las facturas y pagos de socios, si un socio se atrasaba en un pago debía aparecer una advertencia una vez que ingresaba con su carnet (también diseñado
+                    por nosotros) y a este no permitiéndole disputar un partido.</p>
+                    <p>Cada jugador podia retirarse de su equipo y cambiarse a otro y no necesariamente tenia que ser de la misma categoría, podia también cambiarse de equipo y categoría.
                     El mismo sistema manejaba los scores de cada equipo y jugador, registrando asi la cantidad de goles que se hizo durante todo el torneo, tanto del jugador como del equipo completo.</p>
-                    <p><b>Las tecnologias que se utilizaron para desarrollar este sistema fueron:</b> PHP y Laravel para el Back End, AngularJS para el Front End utilizando la libreria Bootstrap y una base de datos SQL con DER incluido.</p>
+                    <p><b>Las tecnologías que se utilizaron para desarrollar este sistema fueron:</b> PHP y Laravel para el Back End, AngularJS para el Front End utilizando la librería Bootstrap y una base de datos SQL con DER incluido.</p>
                 </div>
             </div>
             <div className="imagesAnglo">
-                <p><b>Carousel de imagenes del proyecto</b></p>
+                <p><b>Carousel de imágenes del proyecto</b></p>
                 <Image.PreviewGroup
                     items={[ portada, login, inicio, jugadores, jugador, equipos, cobranzas ]}
                 >
@@ -40,7 +40,7 @@ export const AngloJob:React.FC = () =>{
                     />
                 </Image.PreviewGroup>
                 <div className="technologies">
-                    <h3>Tecnologias utilizadas</h3><br/>
+                    <h3>Tecnologías utilizadas</h3><br/>
                     <Flex gap={10} justify="center">
                         <Image src={php} style={{ width: '130px', height: '80px', borderRadius: '0%' }}/>
                         <Image src={laravel} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>

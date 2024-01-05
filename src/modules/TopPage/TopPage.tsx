@@ -31,7 +31,7 @@ export const TopPage:React.FC = () =>{
                                 </Flex>
 
                                 <div className="title">
-                                    Titulo:
+                                    Título:
                                     <h3>Full Stack Developer (mid level) </h3>
                                 </div>
 

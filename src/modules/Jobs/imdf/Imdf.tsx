@@ -22,7 +22,7 @@ export const ImdfJob:React.FC = () =>{
     return(
         <Flex gap={10} style={{color:'white'}}>
             <div className="images">
-                <p><b>Carousel de imagenes del proyecto</b></p>
+                <p><b>Carousel de imágenes del proyecto</b></p>
                 <Image.PreviewGroup
                     items={[ portada, imdfLogin, inicio, areas, cursos, usuarios, notas ]}
                 >
@@ -32,7 +32,7 @@ export const ImdfJob:React.FC = () =>{
                 />
                 </Image.PreviewGroup>
                 <div className="technologies">
-                    <h3>Tecnologias utilizadas</h3><br/>
+                    <h3>Tecnologías utilizadas</h3><br/>
                     <Flex gap={10} justify="center">
                         <Image src={php} style={{ width: '130px', height: '80px', borderRadius: '0%' }}/>
                         <Image src={symfony} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
@@ -50,7 +50,7 @@ export const ImdfJob:React.FC = () =>{
                         <h3>TreeMind</h3>
                     </div>
                     <div>
-                        <ImportOutlined /> - Ubicacion:
+                        <ImportOutlined /> - Ubicación:
                         <h3>Córdoba - Argentina</h3>
                     </div>
                     <div>
@@ -60,17 +60,17 @@ export const ImdfJob:React.FC = () =>{
                 </Flex>
 
                 <Title level={2} style={{ color:'white', marginTop:'50px', textAlign:'center' }}>Full Stack Developer</Title>
-                <Title level={3} style={{ color:'white', marginTop:'50px' }}><u>Descripcion</u>:</Title>
+                <Title level={3} style={{ color:'white', marginTop:'50px' }}><u>Descripción</u>:</Title>
                 <div className="description">
-                    <p>A mediados de 2019 mientras aun me encontraba estudiando en el ultimo año de escuela, me contacte con la empresa TreeMind para poder trabajar con ellos, 
-                    el Product Manager de la misma era profesor en donde yo estudiaba, asique no tuvo problemas en recibirme, esta fue mi primera experiencia profesional como 
-                    Full Stack Developer, en la que consistia darle mantenimiento a dos de sus sistemas que ya estaban en funcionamiento.</p>
-                    <p>El primero en el que trabaje fue en un sistema para un colegio, el mismo consistia en manejar roles de usuario, y dependiendo el rol, era las funcionalidades
-                    que se le permitia hacer al usuario, por ejemplo, si el rol del usuario era SuperAdmin, este mismo tenia la posibilidad de crear asignaturas, cursos, cargar alumnos, 
-                    profesores, preceptores, y directivos, si el rol del usuario era Profesor, este unicamente le permitia entrar para cargar notas a los usuarios que esten en su materia 
+                    <p>A mediados de 2019 mientras aun me encontraba estudiando en el último año de escuela, me contacté con la empresa TreeMind para poder trabajar con ellos, 
+                    el Product Manager de la misma era profesor en donde yo estudiaba, asi que no tuvo problemas en recibirme, esta fue mi primera experiencia profesional como 
+                    Full Stack Developer, en la que consistía darle mantenimiento a dos de sus sistemas que ya estaban en funcionamiento.</p>
+                    <p>El primero en el que trabaje fue en un sistema para un colegio, el mismo consistía en manejar roles de usuario, y dependiendo el rol, era las funcionalidades
+                    que se le permitía hacer al usuario, por ejemplo, si el rol del usuario era SuperAdmin, este mismo tenia la posibilidad de crear asignaturas, cursos, cargar alumnos, 
+                    profesores, preceptores, y directivos, si el rol del usuario era Profesor, este unicamente le permitía entrar para cargar notas a los usuarios que estén en su materia 
                     o asignatura. De la misma manera si el usuario era Alumno, este unicamente podia ver las notas de su año lectivo, y mensajes o actividades que el profesor les dejaba, asi como
-                    las asistencias y lo que conllevara a todo el historial academico del mismo.</p>
-                    <p><b>Las tecnologias que se utilizaron para desarrollar este sistema fueron:</b> PHP y Symfony para el Back End, AngularJS para el Front End utilizando la libreria Bootstrap y una base de datos SQL con DER incluido.</p>
+                    las asistencias y lo que conllevara a todo el historial académico del mismo.</p>
+                    <p><b>Las tecnologías que se utilizaron para desarrollar este sistema fueron:</b> PHP y Symfony para el Back End, AngularJS para el Front End utilizando la librería Bootstrap y una base de datos SQL con DER incluido.</p>
                 </div>
             </div>
         </Flex>
