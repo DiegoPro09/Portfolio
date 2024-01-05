@@ -1,0 +1,45 @@
+.tarjeta{
+    height: 250px;
+    width: 200px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #000000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta::before{
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(rgb(0, 255, 157) 10deg, transparent 360deg);
+    animation: giro 2s linear infinite;
+}
+
+@keyframes giro {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.tarjeta::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #000000;
+}
+
+.asd {
+    color: red; /* o cualquier otro color que contraste con el fondo */
+    z-index: 2;
+}
