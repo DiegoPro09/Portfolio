@@ -6,15 +6,18 @@ import react from '../../../assets/img/knoweldge_tech/React-icon.png'
 import antd from '../../../assets/img/knoweldge_tech/antd.png'
 import reactquery from '../../../assets/img/knoweldge_tech/reactquery.png'
 import axios from '../../../assets/img/knoweldge_tech/axios.png'
+import { useTranslation } from "react-i18next"
 
 const { Title } = Typography
 
 export const LiderOilJob:React.FC = () => {
+    const { t } = useTranslation('global')
+
     return (
         <Flex gap={10} style={{color:'white'}}>
             <div className="images">
                 <div className="technologiesLider">
-                    <h3>Tecnologías utilizadas</h3><br/>
+                    <h3>{t('Jobs.Neutral.techused')}</h3><br/>
                     <Flex gap={10} justify="center">
                         <Image src={javascript} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
                         <Image src={typescript} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
@@ -28,30 +31,26 @@ export const LiderOilJob:React.FC = () => {
             <div className="jobdescriptionLider">
                 <Flex gap={60} >
                     <div>
-                        <GroupOutlined /> - Empresa:
+                        <GroupOutlined /> - {t('Jobs.Neutral.company')}:
                         <h3>Lider Oil</h3>
                     </div>
                     <div>
-                        <ImportOutlined /> - Ubicación:
+                        <ImportOutlined /> - {t('Jobs.Neutral.location')}:
                         <h3>Córdoba - Argentina</h3>
                     </div>
                     <div>
-                        <FieldTimeOutlined /> - Años trabajados:
-                        <h3>Agosto 2022 - Julio 2023</h3>
+                        <FieldTimeOutlined /> - {t('Jobs.Neutral.time')}:
+                        <h3>{t('Jobs.Neutral.date.august')} 2022 - {t('Jobs.Neutral.date.july')} 2023</h3>
                     </div>
                 </Flex>
 
                 <Title level={2} style={{ color:'white', marginTop:'50px', textAlign:'center' }}>Front End Developer</Title>
-                <Title level={3} style={{ color:'white', marginTop:'50px' }}><u>Descripción</u>:</Title>
+                <Title level={3} style={{ color:'white', marginTop:'50px' }}><u>{t('Jobs.Neutral.description')}</u></Title>
                 <div className="description">
-                    <p>En 2022 me llegó una oferta de unirme como desarrollador Front End a un proyecto que se estaba realizando para una empresa petrolera, este mismo sistema no era nada diferente
-                    a lo que ya he hecho años anteriores.</p>
-                    <p>La diferencia es que se manejaban tres tipos de usuarios, Administrador, Cliente y Vendedor, cada rol poseía su propia vista dentro del sistema y claro también sus propias funcionalidades,
-                    el Administrador podia cargar usuarios, o bien cualquier usuario se podia registrar, y la aplicación le advertiría al Administrador que hubo un nuevo registro, 
-                    para asi el mismo poder permitirle entrar designándole un estado "Autorizado" o "No autorizado", y también asignándole un rol, dependiendo la persona, si era cliente o vendedor.
-                    Este mismo sistema manejaba las facturas y precios con tasas de intereses e impuestos que se debía de enviar tanto al cliente como al vendedor.</p>
+                    <p>{t('Jobs.Lider.description.first')}</p>
+                    <p>{t('Jobs.Lider.description.second')}</p>
                     
-                    <p><b>Las tecnologías que se utilizaron para desarrollar este sistema fueron:</b> ReactQuery y Axios para conectar con el Back End y asi poder realizar consultas al endpoint, ReactTS y ReactJS para el Front End utilizando la librería AntDesign</p>
+                    <p><b>{t('Jobs.Neutral.techuseddes')}</b> {t('Jobs.Lider.technologies')}</p>
                 </div>
             </div>
         </Flex>

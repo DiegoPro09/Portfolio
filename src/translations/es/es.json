@@ -1,0 +1,74 @@
+{
+    "Top":{
+        "name": "Nombre/s:",
+        "lastname": "Apellido/s:",
+        "title": "Título:",
+        "contact": "Contacto:",
+        "social": "Redes sociales:"
+    },
+    "AboutMe":{
+        "aboutme":"Sobre mí",
+        "description": {
+            "first": "Soy un apasionado por lo que hago, buscando continuamente el crecimiento intelectual en el ámbito de la programación. Desde que me recibí siempre priorice el estar al pendiente de las tecnologías que iban surgiendo, así como estar informado de actualizaciones en cada lenguaje que manejo.",
+            "second": "Personalmente me considero una persona meticulosa, y comprometida con cada proyecto que se ponga por delante, siempre intento buscar una optimización en el código, y revisar constantemente que porción del mismo es redundante o reutilizable para asi transformarlo en un componente único. Si bien poseo habilidades en creación de APIs RESTful, Interfaces de usuario, y Administración de Base de Datos, tiendo a inclinarme mas por el Desarrollo Front End, aunque considero que puedo desenvolverme muy bien en estos tres ámbitos.",
+            "third": "No todo es color de rosas, poseo defectos como cualquier otro. Sin embargo, no me impide realizar la tarea. De hecho, tener errores me motiva mas a mejorar y solucionar el error los desafíos que se me presentan."
+        },
+        "ProgrammingLenguages":{
+            "title": "Lenguajes de Programación",
+            "libraries": "Librerías",
+            "others":"Otros conocimientos"
+        }
+    },
+    "App":{
+        "JobExperience":"Experiencia Laboral",
+        "Technologies": {
+            "title": "En todos los proyectos que he participado se utilizaron las siguientes tecnologías:",
+            "jwt": "Se utiliza JSON Web Token (JWT) para gestionar la autenticación del usuario mediante tokens de sesión.",
+            "oauth": "OAuth se utiliza para delegar autorizaciones de usuarios y gestionar tokens de acceso, permitiendo que aplicaciones obtengan permisos limitados para actuar en nombre de los usuarios.",
+            "ghub": "GitHub se utilizó para el manejo y control de versiones de aplicaciones, permitiendo un seguimiento preciso de los cambios realizados en el código fuente a lo largo del tiempo.",
+            "postman":"Postman se utilizó para realizar solicitudes HTTP de pruebas a los endpoints de una aplicación, facilitando la verificación y validación de la funcionalidad de los servicios a través de un entorno amigable y flexible.",
+            "vscode": "Estos sistemas fueron desarrollados utilizando Visual Studio Code como el Entorno de Desarrollo Integrado (IDE), aprovechando sus características y herramientas para la creación eficiente de código.",
+            "mysql":"MySQL Workbench is used as a database engine to perform queries on existing tables, as well as to create new fields or tables. Since it provides an efficient and complete interface for managing and developing MySQL databases.",
+            "figma": "Los prototipos de los sistemas se crearon y diseñaron en Figma, una herramienta de diseño colaborativo en línea. Figma proporciona una plataforma eficiente para la elaboración y presentación de prototipos, permitiendo la colaboración en tiempo real y facilitando la comunicación visual en el proceso de desarrollo.",
+            "draw":"Draw.io se utilizó para crear esquemas de Diagrama de Entidad-Relación (DER) en el diseño de bases de datos. Esta herramienta facilita la visualización y planificación de la estructura de la base de datos, permitiendo la creación y modificación eficiente de relaciones, atributos y entidades."
+        }
+    },
+    "Jobs":{
+        "Neutral": {
+            "techuseddes":  "Las tecnologías que se utilizaron para desarrollar este sistema fueron:",
+            "carousel":"Carrusel de imágenes del proyecto",
+            "techused": "Tecnologías utilizadas",
+            "company": "Empresa",
+            "location": "Ubicación",
+            "time": "Años trabajados",
+            "date":{
+                "june":"Junio",
+                "july": "Julio",
+                "august": "Agosto"
+            },
+            "description":"Descripción:"
+        },
+        "Anglo":{
+            "description": {
+                "first": "Paralelamente mientras me encontraba trabajando en el sistema del colegio también se me encargo darle mantenimiento a un sistema de un club de futbol, este mismo semanalmente se juegan partidos por torneos dependiendo de la categoría en la que el club se encuentre, permitiendo así que los usuarios únicamente pertenezcan a un club y una categoría. Como todo torneo de futbol, hay árbitros y sanciones que debían ser manejadas, y cuotas para los afiliados.",
+                "second":"Llegada a una cierta cantidad de tarjetas amarillas el mismo debía pagar una multa y quedaba sancionado por conducta a X cantidad de fechas a disputar. También se debían manejar las facturas y pagos de socios, si un socio se atrasaba en un pago debía aparecer una advertencia una vez que ingresaba con su carnet (también diseñado por nosotros) y a este no permitiéndole disputar un partido.",
+                "third": "Cada jugador podia retirarse de su equipo y cambiarse a otro y no necesariamente tenia que ser de la misma categoría, podia también cambiarse de equipo y categoría. El mismo sistema manejaba los scores de cada equipo y jugador, registrando asi la cantidad de goles que se hizo durante todo el torneo, tanto del jugador como del equipo completo."
+            },
+            "technologies": "PHP y Laravel para el Back End, AngularJS para el Front End utilizando la librería Bootstrap y una base de datos SQL con DER incluido."
+        },
+        "Imdf":{
+            "description":{
+                "first":"A mediados de 2019 mientras aun me encontraba estudiando en el último año de escuela, me contacté con la empresa TreeMind para poder trabajar con ellos, el Product Manager de la misma era profesor en donde yo estudiaba, asi que no tuvo problemas en recibirme, esta fue mi primera experiencia profesional como Full Stack Developer, en la que consistía darle mantenimiento a dos de sus sistemas que ya estaban en funcionamiento.",
+                "second":"El primero en el que trabaje fue en un sistema para un colegio, el mismo consistía en manejar roles de usuario, y dependiendo el rol, era las funcionalidades que se le permitía hacer al usuario, por ejemplo, si el rol del usuario era SuperAdmin, este mismo tenia la posibilidad de crear asignaturas, cursos, cargar alumnos, profesores, preceptores, y directivos, si el rol del usuario era Profesor, este unicamente le permitía entrar para cargar notas a los usuarios que estén en su materia o asignatura. De la misma manera si el usuario era Alumno, este unicamente podia ver las notas de su año lectivo, y mensajes o actividades que el profesor les dejaba, asi como las asistencias y lo que conllevara a todo el historial académico del mismo."
+            },
+            "technologies":"PHP y Symfony para el Back End, AngularJS para el Front End utilizando la librería Bootstrap y una base de datos SQL con DER incluido." 
+        },
+        "Lider":{
+            "description":{
+                "first": "En 2022 me llegó una oferta de unirme como desarrollador Front End a un proyecto que se estaba realizando para una empresa petrolera, este mismo sistema no era nada diferente a lo que ya he hecho años anteriores.",
+                "second": "La diferencia es que se manejaban tres tipos de usuarios, Administrador, Cliente y Vendedor, cada rol poseía su propia vista dentro del sistema y claro también sus propias funcionalidades, el Administrador podia cargar usuarios, o bien cualquier usuario se podia registrar, y la aplicación le advertiría al Administrador que hubo un nuevo registro, para asi el mismo poder permitirle entrar designándole un estado Autorizado o No autorizado, y también asignándole un rol, dependiendo la persona, si era cliente o vendedor. Este mismo sistema manejaba las facturas y precios con tasas de intereses e impuestos que se debía de enviar tanto al cliente como al vendedor."
+            },
+            "technologies": "React Query and Axios para conectar con el Backend y asi poder realizar consultas al endpoint, ReactTS y ReactJS para el Front End utilizando la librería AntDesign"
+        }
+    }
+}

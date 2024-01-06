@@ -14,15 +14,18 @@ import javascript from '../../../assets/img/knoweldge_tech/JavaScript-logo.png'
 import angular from '../../../assets/img/knoweldge_tech/Angular.png'
 import bootstrap from '../../../assets/img/knoweldge_tech/bootstrap-logo.png'
 import sql from '../../../assets/img/knoweldge_tech/SQL-logo.png'
+import { useTranslation } from "react-i18next"
 
 const { Title } = Typography
 
 
 export const ImdfJob:React.FC = () =>{
+    const { t } = useTranslation('global')
+
     return(
         <Flex gap={10} style={{color:'white'}}>
             <div className="images">
-                <p><b>Carousel de imágenes del proyecto</b></p>
+                <p><b>{t('Jobs.Neutral.carousel')}</b></p>
                 <Image.PreviewGroup
                     items={[ portada, imdfLogin, inicio, areas, cursos, usuarios, notas ]}
                 >
@@ -32,7 +35,7 @@ export const ImdfJob:React.FC = () =>{
                 />
                 </Image.PreviewGroup>
                 <div className="technologies">
-                    <h3>Tecnologías utilizadas</h3><br/>
+                    <h3>{t('Jobs.Neutral.techused')}</h3><br/>
                     <Flex gap={10} justify="center">
                         <Image src={php} style={{ width: '130px', height: '80px', borderRadius: '0%' }}/>
                         <Image src={symfony} style={{ width: '80px', height: '80px', borderRadius: '0%' }}/>
@@ -46,31 +49,25 @@ export const ImdfJob:React.FC = () =>{
             <div className="jobdescription">
                 <Flex gap={60} >
                     <div>
-                        <GroupOutlined /> - Empresa:
+                        <GroupOutlined /> - {t('Jobs.Neutral.company')}:
                         <h3>TreeMind</h3>
                     </div>
                     <div>
-                        <ImportOutlined /> - Ubicación:
+                        <ImportOutlined /> - {t('Jobs.Neutral.location')}:
                         <h3>Córdoba - Argentina</h3>
                     </div>
                     <div>
-                        <FieldTimeOutlined /> - Años trabajados:
-                        <h3>Junio 2019 - Agosto 2022</h3>
+                        <FieldTimeOutlined /> - {t('Jobs.Neutral.time')}:
+                        <h3>{t('Jobs.Neutral.date.june')} 2019 - {t('Jobs.Neutral.date.august')} 2022</h3>
                     </div>
                 </Flex>
 
                 <Title level={2} style={{ color:'white', marginTop:'50px', textAlign:'center' }}>Full Stack Developer</Title>
-                <Title level={3} style={{ color:'white', marginTop:'50px' }}><u>Descripción</u>:</Title>
+                <Title level={3} style={{ color:'white', marginTop:'50px' }}><u>{t('Jobs.Neutral.description')}</u></Title>
                 <div className="description">
-                    <p>A mediados de 2019 mientras aun me encontraba estudiando en el último año de escuela, me contacté con la empresa TreeMind para poder trabajar con ellos, 
-                    el Product Manager de la misma era profesor en donde yo estudiaba, asi que no tuvo problemas en recibirme, esta fue mi primera experiencia profesional como 
-                    Full Stack Developer, en la que consistía darle mantenimiento a dos de sus sistemas que ya estaban en funcionamiento.</p>
-                    <p>El primero en el que trabaje fue en un sistema para un colegio, el mismo consistía en manejar roles de usuario, y dependiendo el rol, era las funcionalidades
-                    que se le permitía hacer al usuario, por ejemplo, si el rol del usuario era SuperAdmin, este mismo tenia la posibilidad de crear asignaturas, cursos, cargar alumnos, 
-                    profesores, preceptores, y directivos, si el rol del usuario era Profesor, este unicamente le permitía entrar para cargar notas a los usuarios que estén en su materia 
-                    o asignatura. De la misma manera si el usuario era Alumno, este unicamente podia ver las notas de su año lectivo, y mensajes o actividades que el profesor les dejaba, asi como
-                    las asistencias y lo que conllevara a todo el historial académico del mismo.</p>
-                    <p><b>Las tecnologías que se utilizaron para desarrollar este sistema fueron:</b> PHP y Symfony para el Back End, AngularJS para el Front End utilizando la librería Bootstrap y una base de datos SQL con DER incluido.</p>
+                    <p>{t('Jobs.Imdf.description.first')}</p>
+                    <p>{t('Jobs.Imdf.description.second')}</p>
+                    <p><b>{t('Jobs.Neutral.techuseddes')}</b> {t('Jobs.Imdf.technologies')}</p>
                 </div>
             </div>
         </Flex>

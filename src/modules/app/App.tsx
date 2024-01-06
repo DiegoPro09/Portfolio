@@ -15,10 +15,12 @@ import mysqlwork from '../../assets/img/knoweldge_tech/mysqlworkbench.png'
 import figma from '../../assets/img/knoweldge_tech/figma.png'
 import drawio from '../../assets/img/knoweldge_tech/drawio.png'
 import Meta from "antd/es/card/Meta";
+import { useTranslation } from "react-i18next";
 
 const { Title } = Typography
 
 function App() {
+  const { t } = useTranslation('global')
 
   return (
     <div>
@@ -26,40 +28,40 @@ function App() {
       <AboutMe />
       <Divider style={{ backgroundColor:'grey', marginTop:'80px', marginBottom:'80px' }} />
       <JobExperience>
-        <Title level={1} className="title">Experiencia Profesional</Title>        
+        <Title level={1} className="title">{t('App.JobExperience')}</Title>        
         
         <ImdfJob />
         <AngloJob />
         <LiderOilJob />
         
         <div className="tecnologiasusadas">
-          <Title level={1} className="title">En todos los proyectos que he participado se utilizaron las siguientes tecnologías:</Title> 
+          <Title level={1} className="title">{t('App.Technologies.title')}</Title> 
           <Flex gap={25} justify="center">
             <Card cover={<Image src={jwt} style={{ width: '200px', height: '200px'}}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Json Web Token" description="Para manejar la sesión del usuario mediante tokens" />
+              <Meta title="Json Web Token" description={t('App.Technologies.jwt')} />
             </Card>
             <Card cover={<Image src={oauth} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="OAuth" description="Para delegar autorizaciones de los usuarios y manejo de tokens del usuarios" />
+              <Meta title="OAuth" description={t('App.Technologies.oauth')} />
             </Card>
             <Card cover={<Image src={github} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Git Hub" description="Para el manejo y control de versiones de cada aplicación" />
+              <Meta title="Git Hub" description={t('App.Technologies.ghub')} />
             </Card>
             <Card cover={<Image src={postman} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Postman" description="Para realizar pedidos http de pruebas a los endpoints" />
+              <Meta title="Postman" description={t('App.Technologies.postman')} />
             </Card>
           </Flex><br/>
           <Flex gap={25} justify="center">
             <Card cover={<Image src={vscode} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Visual Studio Code" description="IDE donde se realizaron estos sistemas" />
+              <Meta title="Visual Studio Code" description={t('App.Technologies.vscode')} />
             </Card>
             <Card cover={<Image src={mysqlwork} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="MySQL Workbench" description="Motor de base de datos para realizar consultas a las tablas de la misma o crear nuevos campos o tablas" />
+              <Meta title="MySQL Workbench" description={t('App.Technologies.mysql')}  />
             </Card>
             <Card cover={<Image src={figma} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Figma" description="Donde se realizan los prototipos de los sistemas para luego presentarlos" />
+              <Meta title="Figma" description={t('App.Technologies.figma')} />
             </Card>
             <Card cover={<Image src={drawio} style={{ width: '200px', height: '200px' }}/>} style={{ width:'200px', borderRadius:'19px' }} >
-              <Meta title="Draw.io" description="Para realizar esquemas DER para las base de datos" />
+              <Meta title="Draw.io" description={t('App.Technologies.draw')} />
             </Card>            
           </Flex>
         </div>

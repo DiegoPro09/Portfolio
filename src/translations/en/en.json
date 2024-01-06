@@ -1,0 +1,74 @@
+{
+    "Top":{
+        "name":"Names:",
+        "lastname":"Surnames:",
+        "title": "Title:",
+        "contact": "Contact:",
+        "social": "Social networks:"
+    },
+    "AboutMe":{
+        "aboutme":"About Me",
+        "description": {
+            "first": "I am passionate about what I do, continually seeking intellectual growth in the field of programming. Since I graduated I have always prioritized being informed of the technologies that were emerging, as well as being informed of updates in each language I use.",
+            "second": "Personally, I consider myself a meticulous person, and committed to every project that comes my way. I always try to look for an optimization in the code, and constantly review which portion of it is redundant or reusable and then transform it into a unique component. Although I have skills in creating RESTful APIs, User Interfaces, and Database Administration, I go a little more towards Front End Development, although I consider that I can perform very well in these three areas.",
+            "third": "Not everything is perfect, I have defects like anyone else. However, it doesn't stop me from doing the task. In fact, having errors motivates me more to improve and solve the challenges that are presented to me."
+        },
+        "ProgrammingLenguages":{
+            "title": "Programming lenguages",
+            "libraries": "Libraries",
+            "other":"Other knowledge"
+        }
+    },
+    "App":{
+        "JobExperience":"Job experience",
+        "Technologies": {
+            "title":"In all the projects I have participated in, the following technologies were used:",
+            "jwt":"JSON Web Token (JWT) is used to manage user authentication using session tokens",
+            "oauth":"OAuth is used to delegate user authorizations and manage access tokens, allowing applications to obtain limited permissions to act on behalf of users.",
+            "ghub":"GitHub was used for application management and version control, allowing accurate tracking of changes made to the source code over time.",
+            "postman":"Postman was used to make test HTTP requests to the endpoints of an application, facilitating the verification and validation of the functionality of the services through a friendly and flexible environment.",
+            "vscode":"These systems were developed using Visual Studio Code as the Integrated Development Environment (IDE), taking advantage of its features and tools for efficient code creation.",
+            "mysql":"MySQL Workbench is used as a database engine to perform queries on existing tables, as well as to create new fields or tables. Since it provides an efficient and complete interface for managing and developing MySQL databases.",
+            "figma": "The system prototypes were created and designed in Figma, an online collaborative design tool. Figma provides an efficient platform for the creation and presentation of prototypes, allowing real-time collaboration and facilitating visual communication in the development process.",
+            "draw": "Draw.io was used to create Entity-Relationship Diagram (ERD) schematics in database design. This tool facilitates the visualization and planning of the database structure, allowing the efficient creation and modification of relationships, attributes and entities."
+        }
+    },
+    "Jobs":{
+        "Neutral": {
+            "techuseddes":  "The technologies that were used to develop this system were:",
+            "carousel":"Project image carousel",
+            "techused": "Used technology",
+            "company": "Company",
+            "location": "Location",
+            "time": "Years worked",
+            "date":{
+                "june":"June",
+                "july":"July",
+                "august": "August"
+            },
+            "description":"Description:"
+        },
+        "Anglo":{
+            "description":{
+                "first": "At the same time, while I was working on the school system, I was also in charge of maintaining a soccer club system. Matches were played weekly in tournaments depending on the category in which the club was located, thus allowing users to They only belong to one club and one category. Like every soccer tournament, there are referees and sanctions that had to be handled, and membership fees.",
+                "second":"Upon reaching a certain number of yellow cards, he had to pay a fine and was sanctioned for conduct for X number of dates to be played. Invoices and member payments also had to be handled. If a member was late with a payment, a warning would appear once he entered with his card (also designed by us) and he would not be allowed to play a match.",
+                "third": "Each player could leave his team and change to another and it did not necessarily have to be from the same category, he could also change teams and category. The same system managed the scores of each team and player, thus recording the number of goals scored throughout the tournament, both by the player and the entire team."
+            },
+            "technologies":"PHP and Laravel for the Backend, AngularJS for the Front End using the Bootstrap library and a SQL database with DER included."
+        },
+        "Imdf":{
+            "description":{
+                "first":"In mid-2019, while I was still studying in my last year of school, I contacted the company TreeMind to be able to work with them. Their Product Manager was a teacher where I was studying, so he had no problems receiving me. It was my first professional experience as a Full Stack Developer, which consisted of maintaining two of their systems that were already in operation.",
+                "second":"The first one I worked on was in a system for a school, it consisted of managing user roles, and depending on the role, it was the functionalities that the user was allowed to do, for example, if the user's role was SuperAdmin, This same person had the possibility of creating subjects, courses, uploading students, teachers, preceptors, and managers, if the user's role was Professor, this only allowed him to enter to upload notes to users who are in his subject or subject. In the same way, if the user was a Student, he or she could only see the grades from their school year, and messages or activities that the teacher left them, as well as attendance and what would entail their entire academic history."
+            },
+            "technologies": "PHP and Symfony for the Back End, AngularJS for the Front End using the Bootstrap library and a SQL database with DER included."
+        },
+        "Lider":{
+            "description":{
+                "first":"In 2022 I received an offer to join a project that was being carried out for an oil company as a Front End developer. This same system was nothing different from what I had done in previous years.",
+                "second":"The difference is that three types of users were managed, Administrator, Customer and Seller, each role had its own view within the system and of course also its own functionalities, the Administrator could load users, or any user could register, and the application It would warn the Administrator that there was a new registration, in order to allow him to enter, designating an Authorized or Unauthorized status, and also assigning him a role, depending on the person, whether he was a client or seller. This same system managed the invoices and prices with interest rates and taxes that had to be sent to both the client and the seller."
+            },
+            "technologies": "React Query and Axios to connect with the Backend and thus be able to make queries to the endpoint, ReactTS and ReactJS for the Front End using the AntDesign library"
+        }
+    }
+}
