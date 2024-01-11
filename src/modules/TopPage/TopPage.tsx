@@ -39,7 +39,7 @@ export const TopPage:React.FC = () =>{
 
                                 <div className="title">
                                     {t('Top.contact')}
-                                    <h5> <MailOutlined />  diego.proware@gmail.com </h5>
+                                    <h5> <MailOutlined />  diego.vallejosrigoni@gmail.com </h5>
                                     <h5> <PhoneOutlined /> +385 91 575 5061 </h5>
                                 </div>
                                 <div className="title">
